@@ -1,0 +1,13 @@
+.env
+.env.*
+.git
+.agents
+.codex
+node_modules
+dist
+npm-debug.log
+pnpm-debug.log
+Dockerfile
+.dockerignore
+README.md
+app.http

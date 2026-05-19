@@ -1,0 +1,12 @@
+@url = http://localhost:5000
+
+###health
+GET {{url}}/health
+
+###generate questions
+POST {{url}}/api/questions
+Content-Type: application/json
+
+{
+ "jobTitle": "software engineer"
+}
