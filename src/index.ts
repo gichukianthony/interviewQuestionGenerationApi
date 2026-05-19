@@ -46,7 +46,7 @@ if (NODE_ENV==="production"){
   app.use(morgan("dev"))
 }
 //enabling cors
-const allowedOrigins = ['https://relaxed-phoenix-6ab9b8.netlify.app/', 'http://localhost:5173'];
+const allowedOrigins = ['https://relaxed-phoenix-6ab9b8.netlify.app', 'http://localhost:5173'];
 
 app.use(cors({
   origin: (origin, callback) => {
